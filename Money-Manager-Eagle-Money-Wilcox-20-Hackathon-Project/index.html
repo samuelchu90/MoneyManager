@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<title>Money Managment</title>
+
+</head>
+
+<body>
+	<div id="container">
+		<ul>
+			<li><a class="active" href="welcome.html">Home</a></li>
+			<li><a href="index.html">Tracker</a></li>
+			<!--<li><a href="results.html">Results</a></li>-->
+			<li style="float:right"><a href="#about">Logout</a></li>
+		</ul>
+		<div id="utilitiessection">
+			<h3>
+				Ways to Save Money:
+			</h3>
+			<h4>
+				Alerts:
+			</h4>
+			<p id="alertFood">Food purchases look fine!</p>
+			<p id="alertEntertainment">Entertainment purchases look fine!</p>
+			<p id="alertHousing">Housing purchases look fine!</p>
+			<p id="alertTransportation">Transportation purchases look fine!</p>
+			<p id="alertUtilities">Utilities purchases look fine!</p>
+			<p id="alertClothing">Clothing purchases look fine!</p>
+			<p id="alertMedical">Medical purchases look fine!</p>
+			<p id="alertInsurance">Insurance purchases look fine!</p>
+			<p id="alertHousehold">Household purchases look fine!</p>
+			<p id="alertEducation">Education purchases look fine!</p>
+		</div>
+		<div id="resultssection">
+			<h3>
+				Results:
+			</h3>
+			<p>Money Spent on Food:</p>
+			<h4 id="food">N/A</h4>
+			<p>Money Spent on Entertainment:</p>
+			<h4 id="entertainment">N/A</h4>
+			<p>Money Spent on Housing:</p>
+			<h4 id="housing">N/A</h4>
+			<p>Money Spent on Transportation:</p>
+			<h4 id="transportation">N/A</h4>
+			<p>Money Spent on Utilities:</p>
+			<h4 id="utilities">N/A</h4>
+			<p>Money Spent on Clothing:</p>
+			<h4 id="clothing">N/A</h4>
+			<p>Money Spent on Medical:</p>
+			<h4 id="medical">N/A</h4>
+			<p>Money Spent on Insurance:</p>
+			<h4 id="insurance">N/A</h4>
+			<p>Money Spent on Household Goods:</p>
+			<h4 id="household">N/A</h4>
+			<p>Money Spent on Education:</p>
+			<h4 id="education">N/A</h4>
+		</div>
+		<div id="mainapp">
+			<div id="question">
+				Which category best fits the product you purchased?
+			</div>
+			<div id="expensetype">
+				<button class="operator" id="food" onclick="getFood();">Food</button>
+            <button class="operator" id="entertainment" onclick="getEnter();">Entertainment</button>
+            <button class="operator" id="housing" onclick="getHousing();">Housing</button>
+            <button class="operator" id="transportation" onclick="getTransportation();">Transportation</button>
+            <button class="operator" id="utilities" onclick="getUtilities();">Utilities</button>
+            <button class="operator" id="clothing" onclick="getClothing();">Clothing</button>
+            <button class="operator" id="medical" onclick="getMedical();">Medical</button>
+            <button class="operator" id="insurance" onclick="getInsurance();">Insurance</button>
+            <button class="operator" id="household" onclick="getHousing();">Household</button>
+            <button class="operator" id="education" onclick="getEducation();">Education</button>
+        </div>
+        <div id="price">
+            <br><br>
+            <label for="value">Price of Good:</label>
+            <input type="text" id="priceofgood">
+            <button type="button" onclick="getPrice();">✓</button>
+        </div>
+        <div id="utility">
+            <label for="value">Utility Factor:</label>
+            <input type="text" id="util">
+            <button type="button" onclick="getUtilityFactor();">✓</button>
+            <br><br>
+        </div>
+        <br>
+        <div id="income">
+          <label for="value">Income:</label>
+          <input type="text" id="incomeInput"><button type="button" onclick="getIncome();">✓</button>
+          
+        </div>
+        <p>
+          Please enter values from 0 to 10. A utility factor of 0 would be something like Netflix or gourmet cakes for dogs, while a utility factor of 10 would be bare essential foods, housing, and healthcare.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>`````

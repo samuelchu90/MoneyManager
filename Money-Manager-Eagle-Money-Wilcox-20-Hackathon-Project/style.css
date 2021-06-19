@@ -1,0 +1,118 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}
+#container{
+  width: 1000px;
+  height: 550px;
+  background-image: url(https://raw.githubusercontent.com/abarna-codespot/A-simple-Calculator/master/bgImg.jpg);
+  margin: 20px auto;
+}
+#welcome{
+  width: 800px;
+  height: 420px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 15px;
+  position: relative;
+	border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mainapp{
+  width: 320px;
+  height: 483px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 5px;
+  left:10px;
+  float:left;
+  
+	border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#resultssection{
+  width: 280px;
+  height: 483px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  line-height: 2.5px;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  font-size: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: absolute;
+  top:80px;
+  left:390px;
+	border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#utilitiessection{
+  width: 280px;
+  height: 483px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  line-height: 2.5px;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  font-size: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  top: 5px;
+  right: 170px;
+  float:right;
+  
+	border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#question{
+  margin: 0 auto;
+  top: 10px;
+  position: relative;
+	border-radius: 5px;
+}
+#expensetype{
+  margin: 0 auto;
+  top: 10px;
+  position: relative;
+	border-radius: 5px;
+}
+#price{
+  height:10px;
+}
+
+.operator{
+  font-weight: bold;
+  font-size:15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}   
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.pie {
+  width: 400px;
+  height: 400px;
+  background-image: conic-gradient(orange 64%, blue 17%, black 10%, aqua);
+  border-radius: 50%
+}
